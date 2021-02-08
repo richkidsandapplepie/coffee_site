@@ -26,7 +26,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="#coffeeSiteNavbar">
-        <a href="#">good coffee</a>
+        <a href="#" id="title">good coffee</a>
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
             <a class="nav-link" href="#"> Home</a>
@@ -70,66 +70,133 @@
           </a>
         </div>
       </div>
-
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-12 col-md-4 ">
-      <p class="text-center info-text">
-        location
-        <br>
-        10992 Mulberry Drive
-        <br>
-        Houston, TX 77080
-      </p>
-    </div>
-    <div class="col-12 col-md-4">
-      <p class="text-center info-text">
-        hours
-        <br>
-        m-f: 5 a.m. - 10 p.m.
-        <br>
-        sat-sun: 5 a.m. - 2 p.m. 
-      </p>
-    </div>
-    <div class="col-12 col-md-4">
-      <p class="text-center info-text">
-        contact
-        <br>
-        832-992-9903
-        <br>
-        goodcoffee@gmail.com
-      </p>
     </div>
   </div>
 
-  <div class="row">
-    <div class="col-12 col-md-6 menu-box">
-
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-4 ">
+        <p class="text-center info-text">
+          location
+          <br>
+          10992 Mulberry Drive
+          <br>
+          Houston, TX 77080
+        </p>
+      </div>
+      <div class="col-12 col-md-4">
+        <p class="text-center info-text">
+          hours
+          <br>
+          m-f: 5 a.m. - 10 p.m.
+          <br>
+          sat-sun: 5 a.m. - 2 p.m.
+        </p>
+      </div>
+      <div class="col-12 col-md-4">
+        <p class="text-center info-text">
+          contact
+          <br>
+          832-992-9903
+          <br>
+          goodcoffee@gmail.com
+        </p>
+      </div>
     </div>
-    <div class="col-12 col-md-6 volunteer-box">
+  </div>
+
+  <div class="row">
+    <div class="col-12 col-md-6 menu-container d-flex justify-content-center text-center">
+      <table id="menu-table">
+        <tr>
+          <td><strong>coffee</strong></td>
+          <td><strong>sm</strong></td>
+          <td><strong>lg</strong></td>
+        </tr>
+        <tr>
+          <td>drip</td>
+          <td>2.5</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>americano</td>
+          <td>3</td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <td>mocha</td>
+          <td>4</td>
+          <td>5</td>
+        </tr>
+        <tr>
+          <td>latte</td>
+          <td>4</td>
+          <td>5</td>
+        </tr>
+        <tr>
+          <td>expresso</td>
+          <td>3</td>
+          <td>3.5</td>
+        </tr>
+      </table>
+    </div>
+    <div class="col-12 col-md-6 volunteer-container">
       <img class="img_7" src="images/img_7.jpg" alt="">
       <div class="row media-text">
         <div class="col-md-6">
-            <div class="img-text">
-                <p>make a change</p>
-                <br>
-                <p>A portion of your purchase goes directly to charity in your community.</p>
-              </div> 
+          <div class="img-text">
+            <p>make a change</p>
+            <br>
+            <p>A portion of your purchase goes directly to charity in your community.</p>
+          </div>
         </div>
         <div class="col-md-6 text-center">
           <button class="btn btn-secondary btn-lg">learn more</button>
         </div>
       </div>
-     
     </div>
   </div>
 
-
-
-  <footer>
-    
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-4">
+          <p class="text-center" id="footer-info">
+            good coffee
+            <br>
+            location
+            <br>
+            10992 Mulberry Drive
+            <br>
+            Houston, TX 77080
+          </p>
+        </div>
+        <div class="col-12 col-md-4" id="social-media-container">
+          <a href="#"><i class="fa fa-twitter fa-2x"></i></a>
+          <a href="#"><i class="fa fa-instagram fa-2x"></i></a>
+          <a href="#"><i class="fa fa-facebook fa-2x"></i></a>
+        </div>
+        <div class="col-12 col-md-4" id="footer-links-container">
+          <ul class=" ml-auto" id="footer-links">
+            <li>
+              <a href="#"> Home</a>
+            </li>
+            <li>
+              <a href="#"> About</a>
+            </li>
+            <li>
+              <a href="#"> Contact</a>
+            </li>
+            <li>
+              <a href="#"> Order Online</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </footer>
+
+
 
   <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
 
