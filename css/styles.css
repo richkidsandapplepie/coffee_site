@@ -87,13 +87,11 @@ td {
   margin-bottom: auto;
 }
 
-#footer-links {
+#footer-link {
   text-align: center;
-  list-style-type: none;
-}
-
-#footer-links a {
+  display: block;
   text-decoration: none;
   color: white;
 }
+
 

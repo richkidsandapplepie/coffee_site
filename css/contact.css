@@ -1,0 +1,60 @@
+* {
+  font-family: 'Courier Prime', monospace;
+  font-size: 15px;
+}
+
+.nav-link {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+#title {
+  text-decoration: none;
+  color: black;
+}
+
+.contact-row {
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+#contact-img {
+  height: 400px;
+  width: 300px;
+}
+
+#contact-form {
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.site-footer {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 150px;
+}
+
+#social-media-container {
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#social-media-container i {
+  color: white;
+}
+
+#footer-links-container {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#footer-link {
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+
+
