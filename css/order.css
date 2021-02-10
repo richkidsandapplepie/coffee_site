@@ -1,0 +1,74 @@
+* {
+  font-family: 'Courier Prime', monospace;
+  font-size: 15px;
+}
+
+.nav-link {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+#title {
+  text-decoration: none;
+  color: black;
+}
+
+.site-footer {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 150px;
+}
+
+#social-media-container {
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#social-media-container i {
+  color: white;
+}
+
+#footer-links-container {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#footer-link {
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+
+.menu-row {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.menu-input {
+  width: 50px;
+}
+
+.addBtn {
+  height: 25px;
+  font-size: 12px;
+}
+
+.btn-container {
+  margin-bottom: 100px;
+}
+
+#menu-container {
+  outline: 1px solid rgb(42, 42, 42);
+  padding: 50px 100px 50px 100px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  #menu-container {
+    padding: 0px;
+  }
+}
+
