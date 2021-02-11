@@ -42,7 +42,7 @@
 }
 
 .menu-row {
-  margin-top: 50px;
+  margin-top: 30px;
   margin-bottom: 20px;
 }
 
@@ -66,6 +66,27 @@
   margin-bottom: 50px;
 }
 
+.menu-row .col-2 {
+  text-align: center;
+}
+
+.checkout-form-container {
+  outline: 1px solid rgb(42, 42, 42);
+  padding: 50px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  height: 700px;
+}
+
+.cartItem p {
+  display: inline;
+}
+
+.cancel-btn {
+  border: none;
+  background-color: white;
+}
+
 @media only screen and (max-width: 600px) {
   * {
     font-size: 12px;
@@ -73,4 +94,14 @@
   #menu-container {
     padding: 10px;
   }
+
+  .checkout-form-container {
+    padding: 10px;  
+    margin-top: 0px;
+    margin-bottom: 50px;
+    height: auto;
+
+  }
+  
+  
 }

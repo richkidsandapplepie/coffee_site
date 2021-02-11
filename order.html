@@ -46,25 +46,31 @@
   </nav>
 
   <div class="container" id="menu-container">
-      <div class="row menu-row">
-          <div class="col-2">
-            <div></div>
-          </div>
-          <div class="col-2">
-            <div>small</div>
-          </div>
-          <div class="col-2">
-            <div>medium</div>
-          </div>
-          <div class="col-2">
-              <div>size</div>
-          </div>
-          <div class="col-2">
-              <div>quantity</div>
-          </div>
-          <div class="col-2">
-          </div>
-        </div>
+    <div class="row">
+      <div class="col-12">
+        <h2>coffee and food</h2>
+      </div>
+    </div>
+    <hr>
+    <div class="row menu-row">
+      <div class="col-2">
+        <div></div>
+      </div>
+      <div class="col-2">
+        <div>small</div>
+      </div>
+      <div class="col-2">
+        <div>medium</div>
+      </div>
+      <div class="col-2">
+        <div>size</div>
+      </div>
+      <div class="col-2">
+        <div>quantity</div>
+      </div>
+      <div class="col-2">
+      </div>
+    </div>
 
     <div class="row menu-row">
       <div class="col-2">
@@ -169,17 +175,116 @@
         <button type="button" class="btn addBtn btn-dark">add to cart</button>
       </div>
     </div>
-
   </div>
-  <div class="container btn-container">
+
+  <div class="container">
     <div class="row">
       <div class="col-12">
-        <button type="button" class="btn btn-dark float-right">next</button>
+        <h2>cart</h2>
+        <div class="cartItem">
+          <p>item 1</p>
+          <p>quantity</p>
+          <p>price</p>
+          <button class="cancel-btn"><i class="fa fa-times-circle"></i></button>
+        </div>
+        <div class="cartItem">
+          <p>item 2</p>
+          <p>price</p>
+          <button class="cancel-btn"><i class="fa fa-times-circle"></i></button>
+        </div>
+        <div class="cartItem">
+          <p>item 3</p>
+          <p>price</p>
+          <button class="cancel-btn"><i class="fa fa-times-circle"></i></button>
+        </div>
+        <hr>
+        <p>total</p>
       </div>
     </div>
-
   </div>
 
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-6">
+        <div class="container checkout-form-container">
+          <form>
+            <h2>shipping</h2>
+            <hr>
+            <div class="form-group">
+              <label for="inputFirstName1">first name</label>
+              <input type="text" class="form-control" id="inputEmail1" placeholder="first name">
+            </div>
+            <div class="form-group">
+              <label for="inputLastName1">last name</label>
+              <input type="password" class="form-control" id="inputLastName1" placeholder="last name">
+            </div>
+            <div class="form-group">
+              <label for="inputEmail1">email</label>
+              <input type="email" class="form-control" id="inputEmail1" placeholder="email">
+            </div>
+            <div class="form-group">
+              <label for="inputPhoneNumber1">phone number</label>
+              <input type="text" class="form-control" id="inputPhoneNumber1" placeholder="phone number">
+            </div>
+            <div class="form-group">
+              <label for="inputAddress1">address</label>
+              <input type="text" class="form-control" id="inputAddress1" placeholder="address">
+            </div>
+            <div class="form-group">
+              <label for="inputPassword1">city</label>
+              <input type="text" class="form-control" id="inputCity1" placeholder="city">
+            </div>
+            <div class="form-group">
+              <label for="inputZipcode1">zip code</label>
+              <input type="text" class="form-control" id="inputZipcode1" placeholder="zip">
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class="container checkout-form-container">
+          <form>
+            <h2>payment</h2>
+            <hr>
+            <div class="form-group">
+              <label for="inputFirstName1">first name</label>
+              <input type="text" class="form-control" id="inputEmail1" placeholder="first name">
+            </div>
+            <div class="form-group">
+              <label for="inputLastName1">last name</label>
+              <input type="password" class="form-control" id="inputLastName1" placeholder="last name">
+            </div>
+            <div class="form-group">
+              <label for="inputCardNum1">credit card number</label>
+              <input type="text" class="form-control" id="inputCardNum1" placeholder="cc number">
+            </div>
+            <div class="form-group">
+              <label for="inputCCV1">ccv</label>
+              <input type="text" class="form-control" id="inputCCV1" placeholder="ccv">
+            </div>
+            <div class="form-group">
+              <label for="inputPromo1">promocode</label>
+              <input type="text" class="form-control" id="inputpromo1" placeholder="promocode">
+            </div>
+            <p>is your billing address the same as your shipping address?</p>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadioYes" value="yes">
+              <label class="form-check-label" for="inlineRadio1">yes</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadioNo" value="no">
+              <label class="form-check-label" for="inlineRadio2">no</label>
+            </div>
+            <div class="row">
+              <div class="col-12 text-right">
+                <button type="submit" class="btn btn-dark">order</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <footer class="site-footer">
     <div class="container">
@@ -205,7 +310,6 @@
           <a id="footer-link" href="#"> About</a>
           <a id="footer-link" href="#"> Contact</a>
           <a id="footer-link" href="#"> Order Online</a>
-
         </div>
       </div>
     </div>
