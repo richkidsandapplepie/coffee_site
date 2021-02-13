@@ -71,17 +71,40 @@
 }
 
 #cart-container {
-  display: none;
+  transition: opacity 1s ease-out;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+#cart-container.active {
+  opacity: 1;
+    height: auto;
 }
 
 .checkout-form-container {
-  display: none;
+
   outline: 1px solid rgb(42, 42, 42);
   padding: 50px;
   margin-top: 100px;
   margin-bottom: 50px;
   height: 700px;
+
+  transition: opacity 1s ease-out;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+  
 }
+
+.checkout-form-container.active {
+  opacity: 1;
+    height: 700px;
+}
+
+
+
+
 
 .cartItem p {
   display: inline;
